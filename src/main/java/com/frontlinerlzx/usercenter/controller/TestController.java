@@ -32,4 +32,10 @@ public class TestController {
         this.userMapper.insert(user);
         return user;
     }
+
+    @GetMapping("/q")
+    public User query(User user){
+
+        return user;
+    }
 }
